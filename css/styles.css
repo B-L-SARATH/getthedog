@@ -1,0 +1,168 @@
+#title{
+  background-color: #ff4c68;
+}
+.big-title{
+  font-family:"Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#fff;
+}
+.container-fluid{
+  padding:3% 15%
+}
+.buttons{
+  margin:5% 3% 5% 0;
+}
+.navbar{
+  padding-bottom: 4rem;
+}
+.navbar-brand{
+  font-family:"ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 20px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light"
+}
+.phone-image{
+
+  transform:rotate(25deg);
+  position: absolute;
+  width:20%;
+  z-index: 1;
+  right: 250px;
+
+
+}
+#features{
+  padding:10% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.fonts{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fonts:hover{
+  color:#ff4c68;
+}
+h2{
+  font-family:"Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+#testimonials{
+
+  background-color:#ff4c68;
+  text-align: center;
+  color:#fff;
+
+}
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+    padding:10% 15%;
+}
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presslogo{
+width:15%;
+margin:10px 20px 50px;
+}
+#pricing{
+  text-align: center;
+
+  padding:100px 100px 50px 100px;
+
+
+}
+
+
+.pricing-cards{
+  padding:3%;
+}
+@media (max-width:900px){
+  #title{
+    text-align: center;
+  }
+  .phone-image{
+    width:60%;
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+#cta{
+  padding: 5% 15% 5% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color:#fff;
+
+
+}
+.cta-heading{
+  font-family:"Montserrat";
+  line-height: 1.5;
+  font-size: 45px;
+  margin-bottom: 30px;
+
+}
+.cta-buttons{
+  margin:10px;
+}
+#footer{
+  padding:6% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.footer-icons{
+  margin:10px;
+
+}
+.footer-links{
+
+  color:black;
+}
+.footer-links:hover{
+  color:#ff4c68;
+
+}
+.copyright{
+  color:grey;
+  margin-top: 10px;
+}
+@media (max-width:500px){
+  .container-fluid{
+    padding:0;
+    overflow:hidden;
+  }
+  .big-title{
+    font-size: 2rem;
+  }
+  .testimonial-text,.pricing-title,.cta-heading{
+    font-size: 1.5rem;
+
+  }
+  #cta{
+    padding-top: 10%;
+  }
+  #pricing{
+    padding: 10%;
+  }
+
+}
